@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPServer", "TCPServer.vcxproj", "{40479C67-0259-45A3-B186-6E3907C2617C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "..\Common\Common\Common.vcxproj", "{EF9CA22D-0C8F-42E9-AB66-98BC1A640F10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Network", "..\Common\Network\Network.vcxproj", "{A202AA06-F0EE-4B05-86DE-DA63B9F146D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPClient", "..\TCPClient\TCPClient.vcxproj", "{CF2D6D9B-2CC1-47B4-8241-E9F667B470B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40479C67-0259-45A3-B186-6E3907C2617C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40479C67-0259-45A3-B186-6E3907C2617C}.Debug|Win32.Build.0 = Debug|Win32
+		{40479C67-0259-45A3-B186-6E3907C2617C}.Release|Win32.ActiveCfg = Release|Win32
+		{40479C67-0259-45A3-B186-6E3907C2617C}.Release|Win32.Build.0 = Release|Win32
+		{EF9CA22D-0C8F-42E9-AB66-98BC1A640F10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF9CA22D-0C8F-42E9-AB66-98BC1A640F10}.Debug|Win32.Build.0 = Debug|Win32
+		{EF9CA22D-0C8F-42E9-AB66-98BC1A640F10}.Release|Win32.ActiveCfg = Release|Win32
+		{EF9CA22D-0C8F-42E9-AB66-98BC1A640F10}.Release|Win32.Build.0 = Release|Win32
+		{A202AA06-F0EE-4B05-86DE-DA63B9F146D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A202AA06-F0EE-4B05-86DE-DA63B9F146D4}.Debug|Win32.Build.0 = Debug|Win32
+		{A202AA06-F0EE-4B05-86DE-DA63B9F146D4}.Release|Win32.ActiveCfg = Release|Win32
+		{A202AA06-F0EE-4B05-86DE-DA63B9F146D4}.Release|Win32.Build.0 = Release|Win32
+		{CF2D6D9B-2CC1-47B4-8241-E9F667B470B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF2D6D9B-2CC1-47B4-8241-E9F667B470B9}.Debug|Win32.Build.0 = Debug|Win32
+		{CF2D6D9B-2CC1-47B4-8241-E9F667B470B9}.Release|Win32.ActiveCfg = Release|Win32
+		{CF2D6D9B-2CC1-47B4-8241-E9F667B470B9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
