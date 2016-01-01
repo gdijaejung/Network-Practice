@@ -4,8 +4,8 @@
 //
 //
 #include <iostream>
-#include "../Common/Common/common.h"
-#include "../Common/Network/network.h"
+#include "../../Common/Common/common.h"
+#include "../../Common/Network/network.h"
 
 #pragma comment(lib, "winmm.lib")
 

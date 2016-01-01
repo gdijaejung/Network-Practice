@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{40479C67-0259-45A3-B186-6E3907C2617C}</ProjectGuid>
+    <ProjectGuid>{CF2D6D9B-2CC1-47B4-8241-E9F667B470B9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TCPServer</RootNamespace>
+    <RootNamespace>TCPClient</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -41,10 +41,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\Bin\</OutDir>
+    <OutDir>..\..\..\Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Bin\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -79,13 +80,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="tcpservermain.cpp" />
+    <ClCompile Include="tcpclientmain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common\Common.vcxproj">
+    <ProjectReference Include="..\..\Common\Common\Common.vcxproj">
       <Project>{ef9ca22d-0c8f-42e9-ab66-98bc1a640f10}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\Common\Network\Network.vcxproj">
+    <ProjectReference Include="..\..\Common\Network\Network.vcxproj">
       <Project>{a202aa06-f0ee-4b05-86de-da63b9f146d4}</Project>
     </ProjectReference>
   </ItemGroup>
