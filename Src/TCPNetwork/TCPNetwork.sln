@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPClient", "TCPClient\TCPC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPServer", "TCPServer\TCPServer.vcxproj", "{40479C67-0259-45A3-B186-6E3907C2617C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPClientSimple", "TCPClientSimple\TCPClientSimple.vcxproj", "{600CE0E9-E6AA-4290-B9CF-50A9B3783BD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{40479C67-0259-45A3-B186-6E3907C2617C}.Debug|Win32.Build.0 = Debug|Win32
 		{40479C67-0259-45A3-B186-6E3907C2617C}.Release|Win32.ActiveCfg = Release|Win32
 		{40479C67-0259-45A3-B186-6E3907C2617C}.Release|Win32.Build.0 = Release|Win32
+		{600CE0E9-E6AA-4290-B9CF-50A9B3783BD3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{600CE0E9-E6AA-4290-B9CF-50A9B3783BD3}.Debug|Win32.Build.0 = Debug|Win32
+		{600CE0E9-E6AA-4290-B9CF-50A9B3783BD3}.Release|Win32.ActiveCfg = Release|Win32
+		{600CE0E9-E6AA-4290-B9CF-50A9B3783BD3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
